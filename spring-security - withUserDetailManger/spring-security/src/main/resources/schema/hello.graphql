@@ -1,0 +1,6 @@
+type Query{
+    getHello:String
+}
+schema {
+    query: Query
+}

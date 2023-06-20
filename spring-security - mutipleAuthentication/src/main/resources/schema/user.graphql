@@ -1,0 +1,11 @@
+type Mutation{
+    saveUser(user:User):String
+}
+
+input User{
+ username:String
+ password:String
+}
+schema {
+    mutation: Mutation
+}

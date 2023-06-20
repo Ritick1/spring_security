@@ -1,0 +1,15 @@
+type Query{
+    getHello:String
+}
+type Mutation{
+    createUser(user:User):String
+}
+
+input User{
+    username:String
+    password:String
+}
+schema {
+    query: Query
+    mutation: Mutation
+}
